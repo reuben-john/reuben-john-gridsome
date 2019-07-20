@@ -127,7 +127,7 @@
               data-netlify="true"
               netlify-honeypot="bot-field"
             >
-              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="bot-pot" />
               <div class="flex flex-wrap mb-6 -mx-4">
                 <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                   <label class="block mb-2 text-copy-primary" for="name">Name</label>
