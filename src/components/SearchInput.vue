@@ -5,7 +5,7 @@
     <div class="relative w-80">
       <input
         type="text"
-        placeholder="Search (Press  '/' to focus)"
+        placeholder="Search (Press  '\\' to focus)"
         class="bg-background-form border border-gray-500 rounded-full px-4 pl-10 py-2 outline-none focus:border-purple-500 w-80"
         v-model="query"
         @input="softReset"
@@ -148,7 +148,7 @@ export default {
       }
     },
     focusSearch(e) {
-      if (e.key === "/") {
+      if (e.key === "\\") {
         this.$refs.search.focus();
       }
     }
