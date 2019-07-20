@@ -65,7 +65,10 @@
             <g-link v-else to="/#contact" class="text-copy-primary hover:text-gray-600">Contact</g-link>
           </li>
           <li>
-            <g-link to="/blog" class="text-copy-primary hover:text-gray-600">Blog</g-link>
+            <a
+              href="https://www.reubenjohn.com/blog/"
+              class="text-copy-primary hover:text-gray-600"
+            >Blog</a>
           </li>
         </ul>
       </nav>
