@@ -14,7 +14,7 @@ if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss());
 module.exports = {
   siteName: "Reuben Koppenheffer - Web Developer",
   siteDescription: "A simple porfolio and blog powered by Gridsome.",
-  siteUrl: "https://reuben-john-gridsome.netlify.com/",
+  siteUrl: "https://www.reubenjohn.com",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
@@ -45,13 +45,13 @@ module.exports = {
         contentTypeName: "Post",
         feedOptions: {
           title: "Reuben Koppenheffer - Blog",
-          feed_url: "https://reuben-john-gridsome.netlify.com/rss.xml",
-          site_url: "https://reuben-john-gridsome.netlify.com/"
+          feed_url: "https://www.reubenjohn.com/rss.xml",
+          site_url: "https://www.reubenjohn.com/"
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: "https://reuben-john-gridsome.netlify.com/" + node.path,
+          url: "https://www.reubenjohn.com" + node.path,
           author: "Reuben Koppeheffer",
           date: node.date
         }),
