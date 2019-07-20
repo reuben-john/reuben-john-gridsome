@@ -125,7 +125,7 @@
               class="mb-12"
               method="POST"
               data-netlify="true"
-              netlify-honeypot="bot-field"
+              netlify-honeypot="bot-pot"
             >
               <input type="hidden" name="bot-pot" />
               <div class="flex flex-wrap mb-6 -mx-4">
