@@ -66,7 +66,7 @@
           </li>
           <li>
             <a
-              href="https://www.reubenjohn.com/blog/"
+              href="https://blog.reubenjohn.com/"
               class="text-copy-primary hover:text-gray-600"
             >Blog</a>
           </li>
