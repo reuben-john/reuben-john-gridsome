@@ -3,7 +3,7 @@
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Gridsome Portfolio Starter</div>
-        <div class="text-green-700 leading-tight">Powered by Vue.js &amp; Tailwind 1.0</div>
+        <div class="text-purple-700 leading-tight">Powered by Vue.js &amp; Tailwind 1.0</div>
       </div>
       <div class="mt-8 sm:mt-0">
         <g-image src="../../static/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
@@ -86,24 +86,14 @@
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
           <div>
             <g-image
-              src="../../static/avatar.jpg"
-              alt="avatar"
+              src="../../static/reuben-john.jpg"
+              alt="Photograph of Reuben"
               class="w-32 h-32 rounded-full mb-8 lg:mb-0"
             />
           </div>
           <div
             class="flex-1 text-lg sm:text-xl ml-6"
-          >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae architecto minus molestias iusto ducimus fuga quo quia libero dignissimos, fugiat modi assumenda debitis laboriosam.</div>
-        </div>
-
-        <div class="responsive-container">
-          <iframe
-            class="responsive-iframe w-full h-full top-0 left-0 border-0"
-            src="https://www.youtube.com/embed/uHo6o1TNQeE"
-            style="border:0;"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+          >I am a hard working and self motivated individual. I'm currently working on adding C# to my repertoire. I have excellent management skills, am capable of working alone on projects or as a team player.</div>
         </div>
       </div>
       <!-- end get-to-know me -->
@@ -129,7 +119,8 @@
           </p>
 
           <div class="text-lg sm:text-lg mb-16">
-            <form action="#" class="mb-12">
+            <form class="mb-12" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
               <div class="flex flex-wrap mb-6 -mx-4">
                 <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                   <label class="block mb-2 text-copy-primary" for="name">Name</label>
@@ -138,8 +129,8 @@
                     type="text"
                     name="name"
                     id="name"
-                    placeholder="Jon Snow"
-                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
+                    placeholder="John Smith"
+                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-purple-700 mb-2 p-4"
                     required
                   />
                 </div>
@@ -152,7 +143,7 @@
                     name="email"
                     id="email"
                     placeholder="email@example.com"
-                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-green-700 mb-2 p-4"
+                    class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-purple-700 mb-2 p-4"
                     required
                   />
                 </div>
@@ -165,7 +156,7 @@
                   id="message"
                   rows="5"
                   name="message"
-                  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-green-700 mb-2 px-4 py-4"
+                  class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-purple-700 mb-2 px-4 py-4"
                   placeholder="Enter your message here."
                   required
                 ></textarea>
@@ -175,7 +166,7 @@
                 <input
                   type="submit"
                   value="Submit"
-                  class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"
+                  class="block bg-purple-700 hover:bg-purple-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"
                 />
               </div>
             </form>
