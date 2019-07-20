@@ -14,7 +14,7 @@
     <div class="container-inner mx-auto">
       <p
         class="text-lg sm:text-xl"
-      >Hi! I'm Reuben. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</p>
+      >Hi! I'm Reuben, web developer extraordinaire. The time I'm not developing is spent creating photographs and relaxing with my family.</p>
       <div class="flex justify-between items-center py-6">
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
           <g-image src="../../static/mind_map.svg" alt="browser" />
@@ -39,28 +39,36 @@
 
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
-            <div>Project One</div>
-            <div
-              class="text-lg text-gray-600"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>Vue.js eBay Damage Tracking Web App</div>
+            <div class="text-lg text-gray-600">
+              This is a redesign of a Python 3 console app I created.
+              It allows for entry of product and shipping losses for online sales and phsyical warehouse losses.
+              It presents easy to view and modify data to help create loss reports. Uses Vue.js, Firebase, CSS, and Javascript.
+              <a
+                href="https://github.com/reuben-john/Simple-Damage-Tracking"
+              >Github</a> --
+              <a href="https://fir-damage-tracker.firebaseapp.com/">Live Demo</a>.
+            </div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Two</div>
-            <div
-              class="text-lg text-gray-600"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>Retro Portfolio</div>
+            <div class="text-lg text-gray-600">
+              Previous mockup of portfolio website with a retro feel. Built with HTML and CSS.
+              <a
+                href="https://github.com/reuben-john/html-css-templates/tree/master/retro-clone"
+              >Github</a> and
+              <a href="https://reuben-john.github.io/html-css-templates/retro-clone/">Live Demo</a>
+            </div>
           </li>
           <li class="checkmark mb-6">
-            <div>Project Three</div>
-            <div
-              class="text-lg text-gray-600"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
-          </li>
-          <li class="checkmark mb-6">
-            <div>Project Four</div>
-            <div
-              class="text-lg text-gray-600"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab nam animi iure nemo exercitationem a, eius non culpa itaque!</div>
+            <div>Bootstrap Portfolio</div>
+            <div class="text-lg text-gray-600">
+              This was my portfolio up until July 2019. Built using HTML, CSS, and Bootstrap.
+              <a
+                href="https://github.com/reuben-john/reuben-john.github.io"
+              >Github</a> and
+              <a href="https://reuben-john.netlify.com">Live Demo</a>
+            </div>
           </li>
         </ul>
       </div>
@@ -85,9 +93,12 @@
               class="w-32 h-32 rounded-full mb-8 lg:mb-0"
             />
           </div>
-          <div
-            class="flex-1 text-lg sm:text-xl ml-6"
-          >I am a hard working and self motivated individual. I'm currently working on adding C# to my repertoire. I have excellent management skills, am capable of working alone on projects or as a team player.</div>
+          <div class="flex-1 text-lg sm:text-xl ml-6">
+            I spent most of my working life managing a small business where I had to wear many hats to fit many different roles.
+            The role that I found myself most in love with was Web Development.
+            The first time I put together a website was a life altering experience.
+            Since then, I have been growing and developing my skill set as a developer.
+          </div>
         </div>
       </div>
       <!-- end get-to-know me -->
@@ -103,14 +114,6 @@
               <use xlink:href="#dots-triangle" />
             </svg>
           </div>
-
-          <p class="mb-12">
-            Static sites cannot submit forms on their own. However, services like
-            <a
-              href="https://www.netlify.com/docs/form-handling"
-            >Netlify Forms</a> or
-            <a href="https://formspree.io">FormSpree</a> can help you do this without a backend.
-          </p>
 
           <div class="text-lg sm:text-lg mb-16">
             <form
