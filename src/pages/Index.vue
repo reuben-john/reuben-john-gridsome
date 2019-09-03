@@ -51,6 +51,15 @@
             </div>
           </li>
           <li class="checkmark mb-6">
+            <div>Django Job Application Tracker Web App</div>
+            <div class="text-lg text-gray-600">
+              The Job Application Tracker is for tracking job postings that you apply to. It allows a single place to monitor status. It supports user authentication via Django's built in auth.
+              <p>The site is written in Python using Django.</p>
+              <a href="https://github.com/reuben-john/job-tracker">Github</a> --
+              <a href="#">Not currently viewable live</a>.
+            </div>
+          </li>
+          <li class="checkmark mb-6">
             <div>Retro Portfolio</div>
             <div class="text-lg text-gray-600">
               Previous mockup of portfolio website with a retro feel. Built with HTML and CSS.
