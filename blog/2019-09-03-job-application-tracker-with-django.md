@@ -10,4 +10,4 @@ tags: ["python", "django", "job-hunting", "website"]
 
 ### Job Tracker
 
-The app is still in progress. Once I finish the a version, I will update the blog post with details about it.
+I built a demo job tracker app but immediately got a job so haven't worked on beyond the basics.
